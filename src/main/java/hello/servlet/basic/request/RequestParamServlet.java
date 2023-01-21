@@ -13,7 +13,7 @@ import java.io.IOException;
  * http://localhost:8080/request-param?username=jinyoung?age=20
  *
  * => 1.쿼리스트링
- * => 2.HTML Form형식으로 온것도 가능 
+ * => 2.HTML Form형식으로 온것도 가능
  */
 @WebServlet(name = "requestParamServlet", urlPatterns = "/request-param")
 public class RequestParamServlet extends HttpServlet {
