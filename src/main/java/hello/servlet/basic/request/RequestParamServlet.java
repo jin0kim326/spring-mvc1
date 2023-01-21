@@ -11,6 +11,9 @@ import java.io.IOException;
 /**
  * 1.파라미터 전송 기능
  * http://localhost:8080/request-param?username=jinyoung?age=20
+ *
+ * => 1.쿼리스트링
+ * => 2.HTML Form형식으로 온것도 가능 
  */
 @WebServlet(name = "requestParamServlet", urlPatterns = "/request-param")
 public class RequestParamServlet extends HttpServlet {
